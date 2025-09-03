@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* div span p{
+    background-color: red;
+} */
+
+div~p{
+    background-color: yellow;
+}
+
+
+/* pseudo class */
+/* p:hover{
+    font-size: 30px;
+} */
+
+p::after{
+    content: "abes engineering college";
+    word-spacing: auto;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+}
+
+p::before{
+    content: "abes engineering college";
+    word-spacing: auto;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+}
+
+p::selection{
+    background-color: red;
+
+}
+
+p:nth-child(2){
+    background-color: green;
+}
+
+div p:nth-of-type(1){
+    background-color: orange;
+}

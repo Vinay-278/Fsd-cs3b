@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    justify-content: space-evenly;
+}
+
+.child1{
+    height: 200px;
+    width: 200px;
+    border: 3px dotted green;
+    background-color: yellow;
+}
+
+.child2{
+    height: 200px;
+    width: 200px;
+    border: 3px dotted blue;
+    background-color: aqua;
+}
+
+.child3{
+    height: 200px;
+    width: 200px;
+    border: 3px dotted black;
+    background-color: aquamarine;
+}
+
+.child4{
+    height: 200px;
+    width: 200px;
+    border: 3px dotted rgb(178, 31, 189);
+    background-color: bisque;
+}
